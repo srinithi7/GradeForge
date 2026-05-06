@@ -1,0 +1,24 @@
+# Data files (user-specific, should not be shared)
+*.dat
+
+# Compiled Java classes
+*.class
+
+# Node.js dependencies
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
