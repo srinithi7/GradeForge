@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 public class LabExam implements Serializable {
     private static final long serialVersionUID = 4L;
-
     private int labId;
     private String subjectCode;
     private String subjectName;
@@ -13,7 +12,6 @@ public class LabExam implements Serializable {
     private double maxMarks;
     private String status;
     private String notes;
-
     public LabExam(int labId, String subjectCode, String subjectName,
                    String examDate, double marksScored, double maxMarks,
                    String status, String notes) {
